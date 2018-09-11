@@ -34,7 +34,7 @@ export default {
     width: 100%;
   }
 
-  @@media (min-width: 768px) {
+  @media (min-width: 768px) {
     .post{
       width: 600px;
       margin: auto;
