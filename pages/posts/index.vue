@@ -1,9 +1,11 @@
-<template lang="html">
-  <PostList />
+<template>
+  <div class="posts-page">
+    <PostList />
+  </div>
 </template>
 
 <script>
-import PostList from "@/components/Posts/PostList"
+import PostList from '@/components/Posts/PostList'
 
 export default {
   components: {
@@ -12,5 +14,11 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+
+<style scoped>
+.posts-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 </style>
